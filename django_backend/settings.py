@@ -30,7 +30,7 @@ if os.environ.get('ENV') == 'PRODUCTION':
 else:
     DEBUG = True
 
-ALLOWED_HOSTS = ['pur-beurre-ps.herokuapp.com']
+ALLOWED_HOSTS = ['140.82.53.102']
 
 
 # Application definition
@@ -70,7 +70,7 @@ MIDDLEWARE = [
 
 
 CORS_ORIGIN_WHITELIST = [
-    "pur-beurre-ps.herokuapp.com",
+    "140.82.53.102",
 ]
 
 AUTHENTICATION_BACKENDS = [
