@@ -1,0 +1,19 @@
+[coverage:run]
+source = .
+omit = 
+    */node_modules/*
+    manage.py
+    django_backend/__init__.py
+    django_backend/asgi.py
+    django_backend/wsgi.py
+    django_backend/schema.py
+    django_backend/tests.py
+    foods/__init__.py
+    foods/apps.py
+    foods/get_foods.py
+    foods/migrations/0001_initial.py
+    foods/migrations/0002_savedfood.py
+    foods/migrations/__init__.py
+    foods/schema.py
+    foods/tests.py
+    foods/views.py
