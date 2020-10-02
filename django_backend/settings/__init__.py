@@ -80,8 +80,8 @@ TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
         'DIRS': [
-            os.path.join(BASE_DIR, 'django_backend/build'),
-        ],
+            os.path.join(BASE_DIR, 'build'),
+            ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
@@ -102,7 +102,6 @@ WSGI_APPLICATION = 'django_backend.wsgi.application'
 
 AUTH_PASSWORD_VALIDATORS = [
     {
-
         'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
     },
     {
